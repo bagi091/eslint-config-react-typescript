@@ -1,5 +1,5 @@
 {
-  "name": "@bagi091/eslint-config-react-typescript",
+  "name": "@bagi091/eslint-config",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
