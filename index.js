@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: "module",
     ecmaFeatures: {
       jsx: true,
     },
@@ -16,17 +16,14 @@ module.exports = {
   //   // project: "./tsconfig.json",
   // },
 
-  plugins: [
-    '@typescript-eslint',
-    // "prettier",
-  ],
+  plugins: ["@typescript-eslint", "prettier"],
   extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'airbnb/whitespace',
-    'airbnb/hooks',
-    'airbnb-typescript',
-    // "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "airbnb/whitespace",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "plugin:prettier/recommended",
   ],
   env: {
     browser: true,
@@ -38,9 +35,9 @@ module.exports = {
 
   settings: {
     react: {
-      version: 'detect',
+      version: "detect",
     },
-    'import/resolver': {
+    "import/resolver": {
       typescript: {
         alwaysTryTypes: true,
       },
@@ -49,9 +46,9 @@ module.exports = {
 
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ["*.ts", "*.tsx"],
       rules: {
-        'react/prop-types': 'off',
+        "react/prop-types": "off",
       },
     },
   ],
