@@ -16,14 +16,13 @@ module.exports = {
   //   // project: "./tsconfig.json",
   // },
 
-  plugins: ["@typescript-eslint", "prettier"],
+  plugins: ["@typescript-eslint"],
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "airbnb/whitespace",
     "airbnb/hooks",
     "airbnb-typescript",
-    "plugin:prettier/recommended",
   ],
   env: {
     browser: true,
